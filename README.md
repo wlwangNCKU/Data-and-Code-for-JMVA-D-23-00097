@@ -41,23 +41,24 @@ R codes for the implementation of our methodology are provided.
 ### Subfolder: ./function ###
 ./function
 	contains the program (function) of
-                 (1) 'mni.r' for calculating the probability density function (pdf) and cumulative distribution function (cdf) of multivariate normal/independent (MNI) distributions;
-                 (2) 'tmni.r' for calculating the pdf and cdf of the truncated MNI distributions; and
-		 (3) 'TMNImoment.r' for evaluting the first two moments of truncated MNI distributions.
+        (1) 'mni.r' for calculating the probability density function (pdf) and cumulative distribution function (cdf) of multivariate normal/independent (MNI) distributions;
+        (2) 'tmni.r' for calculating the pdf and cdf of the truncated MNI distributions; and
+	(3) 'TMNImoment.r' for evaluting the first two moments of truncated MNI distributions.
 
 ### Subfolder: ./code ###
 ./code
-       contains (1) 'fig1.r' main script for drawing the density curves of normal/independent and standard normal distributions;
-                (2) 'fig2.r' main script for drawing the contours plots of bivariate normal/independent and bivariate normal distributions;
+       contains 
+       (1) 'fig1.r' main script for drawing the density curves of normal/independent and standard normal distributions;
+       (2) 'fig2.r' main script for drawing the contours plots of bivariate normal/independent and bivariate normal distributions;
 
 # Note for Section 2 - Preliminary:
 To draw the density curves and contour lines as shown in Figures 1 and 2, please source the 'mni.r', 'tmni.r' and 'TMNImoment.r' scripts in subfolder "./function/",
 and then run the 'fig1.r' and 'fig2.r' scripts in subfolder "./code/".
 The results have been stored in "./results/" and the densities of the bivariate normal/independen distributions has been stored in './data/dMNI.Rdata'.
 
-                (3) 'simulation.r' main script for re-generating part of intermediate results for simualtion (note: The cases of right-, left- and doubly-truncation should be done separately.);
-                (4) 'SIMtab2tabS1.r' main script for re-producting the theoretical mean vectors and variance-covariance matrices of the MNI distributions with various truncations;
-                (5) 'SIMfig.r' main script for re-producting the trace plots of empirical mean vectors and variance-covariance parameters for five TMNI distributions;
+        (3) 'simulation.r' main script for re-generating part of intermediate results for simualtion (note: The cases of right-, left- and doubly-truncation should be done separately.);
+        (4) 'SIMtab2tabS1.r' main script for re-producting the theoretical mean vectors and variance-covariance matrices of the MNI distributions with various truncations;
+        (5) 'SIMfig.r' main script for re-producting the trace plots of empirical mean vectors and variance-covariance parameters for five TMNI distributions;
 
 # Note for Section 5 - Simulation:
 R code 'simulation.r' generates the intermediate results of Table 2 and Figures 3-4 in the manuscript and Figures S.1-S.4 in the supplementary materials.
@@ -71,7 +72,7 @@ and then run the script 'SIMfig.r' in the subfolder "./code/".
 The resulting Table 2 and Table S.1 has been stored in the "./results/" subfolder, and 
 Figures 3-4, Figures S.1-S.2, and Figures S.3-S.4 have been stored in the "./results/doubly", "./results/right" and "./results/left" subfolders, respectively.
 
-               (6) 'example.r' main script for re-producting the multivariate tail conditional expectation (MTCE) for the MNI distributions.
+        (6) 'example.r' main script for re-producting the multivariate tail conditional expectation (MTCE) for the MNI distributions.
 # Note for Section 6 - Application:
 To draw the MTCE measures evaluated at specific quantiles, please source the 'mni.r', 'tmni.r' and 'TMNImoment.r' scripts in subfolder "./function/",
 and then run the 'example.r' scripts in subfolder "./code/".
