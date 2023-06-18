@@ -1,5 +1,6 @@
 # Data-and-Code-for-JMVA-D-23-00097
 Supplementary Material for "On moments of truncated multivariate normal/independent distributions" by Tsung-I Lin and Wan-Lun Wang
+
 ######## Author responsible for the code ########
 For questions, comments or remarks about the code please contact responsible author, Wan-Lun Wang (wangwl@gs.ncku.edu.tw).
 
@@ -71,7 +72,6 @@ Figures 3-4, Figures S.1-S.2, and Figures S.3-S.4 have been stored in the "./res
 # Note for Section 6 - Application:
 To draw the MTCE measures evaluated at specific quantiles, please source the 'mni.r', 'tmni.r' and 'TMNImoment.r' scripts in subfolder "./function/",
 and then run the 'example.r' scripts in subfolder "./code/".
-
 
 ### Subfolder: ./data ###
 ./data
