@@ -2,9 +2,11 @@
 Supplementary Material for "On moments of truncated multivariate normal/independent distributions" by Tsung-I Lin and Wan-Lun Wang
 
 ######## Author responsible for the code ########
+
 For questions, comments or remarks about the code please contact responsible author, Wan-Lun Wang (wangwl@gs.ncku.edu.tw).
 
 ######## Configurations ########
+
 The code was written/evaluated in R with the following software versions:
 R version 4.1.1 (2021-08-10)
 Platform: x86_64-w64-mingw32/x64 (64-bit)
@@ -23,6 +25,7 @@ loaded via a namespace (and not attached):
 [1] compiler_4.1.1
 
 ######## Descriptions of the codes ######### 
+
 Please extract the file "Data-and-Code.zip" to the "current working directory" of the R package.
 The getwd() function shall determine an absolute pathname of the "current working directory".
 
